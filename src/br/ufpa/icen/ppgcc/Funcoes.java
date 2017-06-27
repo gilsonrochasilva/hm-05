@@ -14,12 +14,11 @@ public class Funcoes {
     }
 
     public static boolean xp(String c) {
-        System.out.println("xp: " + s.substring(p, p + 1) + " == " + c + "? " + s.substring(p, p + 1).equals(c));
         return s.substring(p, p + 1).equals(c);
     }
 
     public static boolean np() {
-        System.out.println("np: " + p++ + " --> " + p);
+        p++;
         return true;
     }
 }
